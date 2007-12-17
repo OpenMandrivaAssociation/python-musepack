@@ -10,7 +10,6 @@ URL:		http://www.sacredchao.net/
 Source:		http://www.sacredchao.net/~piman/software/%{oname}-%{version}.tar.bz2
 BuildRequires:	python-devel libmpcdec-devel swig
 %py_requires -d
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This Python module lets you load and decode Musepack (MPC/MP+ files). It also
