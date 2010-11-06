@@ -3,7 +3,7 @@
 Name: 	 	python-musepack
 Summary: 	Python access for musepack audio files
 Version: 	0.4
-Release: 	%mkrel 6
+Release: 	%mkrel 7
 License:	GPL
 Group:		Development/Python
 URL:		http://www.sacredchao.net/
