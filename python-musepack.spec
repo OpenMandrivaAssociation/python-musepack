@@ -41,3 +41,38 @@ rm -rf %{buildroot}
 %{_libdir}/python*/site-packages/%{oname}*.egg-info
 
 
+
+
+%changelog
+* Sat Nov 06 2010 Funda Wang <fwang@mandriva.org> 0.4-7mdv2011.0
++ Revision: 594076
+- rebuild
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.4-6mdv2010.0
++ Revision: 442317
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.4-5mdv2009.0
++ Revision: 259708
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.4-4mdv2009.0
++ Revision: 247516
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.4-2mdv2008.1
++ Revision: 136451
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Feb 23 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 0.4-2mdv2007.0
++ Revision: 124947
+- make it work
+- Import python-musepack
+
+* Mon Aug 15 2005 Austin Acton <austin@mandriva.org> 0.4-1mdk
+- initial package
+
