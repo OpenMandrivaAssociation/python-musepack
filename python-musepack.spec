@@ -7,7 +7,7 @@ Version: 	0.4
 Release: 	8
 License:	GPL
 Group:		Development/Python
-URL:		http://www.sacredchao.net/
+URL:		https://www.sacredchao.net/
 Source:		http://www.sacredchao.net/~piman/software/%{oname}-%{version}.tar.bz2
 BuildRequires:	python-devel libmpcdec-devel swig
 BuildRequires:  python-devel
